@@ -1,5 +1,6 @@
  
 import CardTrilha from "./componets/CardTrilha"
+import "./App.css"
 
 function App() {
 
@@ -19,13 +20,14 @@ function App() {
  
 
   return (
-    <>
+    <div className="conteiner">
+      <h1 className="titulo">Explore trilhas incriveis</h1>
     {
       listaTrilhas.map((trilha, index) => (
       <CardTrilha dadosTrilha={trilha} key={index} />
       ))
     }
-    </>
+    </div>
   )
 }
 
