@@ -1,10 +1,12 @@
+ 
+import Cardtrilha from "./componets/CardTrilha"
 
 function App() {
  
 
   return (
     <>
-      
+      <Cardtrilha/>
     </>
   )
 }
